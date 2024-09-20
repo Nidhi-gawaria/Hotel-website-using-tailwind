@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    </head>
+<body  class="mx-52">
+    <!-- "to-watch":"npx tailwindcss -i ./src/input.css -o ./src/output.css --watch" -->
+    <!-- LEARN about breakdowns! for responsive websites -->
+<header class="sticky left-1 right-1 top-1 bg-blue-100">
+    <div class="navbar flex justify-around h-28 py-9">
+        <!-- <img src="istockphoto-1829241109-170667a.jpg" alt="" class="h-10 w-6mx-1  rounded-xl "> -->
+        <div class="name text-center justify-center">
+        <h1 class="font-extrabold text-3xl  text-center text-gray-800 align-middle">
+
+            Hotel Mid Town 
+        </h1>
+    </div>
+        <ul class="gap-8 flex text-end pt-10 font-mono">
+            <li class="hover:text-pink-700 cursor-pointer">
+                Contact us
+            </li>
+            <li class="hover:text-pink-700 cursor-pointer">FeedBack</li>
+            <li class="hover:text-pink-700 cursor-pointer">
+                Help
+            </li>
+        </ul>
+    </div>
+    <hr>
+</header>
+
+<nav>
+    <div class="navbar">
+        <ul class="flex gap-10 justify-center mt-3 mb-3"> 
+            <li class="hover:text-purple-600 cursor-pointer">Home</li>
+            <li class="hover:text-purple-600 cursor-pointer">About Us </li>
+            <li class="hover:text-purple-600 cursor-pointer">Book a room</li>
+            <li class="hover:text-purple-600 cursor-pointer">Reviews</li>
+            <li class="hover:text-purple-600 cursor-pointer">Pricing</li>
+        </ul>
+    </div>
+</nav>
+<hr>
+<span class="offers">
+    <div class="offer flex mt-5 mb-5 border-black">
+        <img src="room01.jfif" alt="" class="h-64 w-8/12 ">
+        <div class="offer02 mx-8 mt-28 ml-9 font-bold text-2x">
+
+            <p>Upto 50% Off</p>
+            <p class="hover:text-yellow-600 cursor-pointer">know details...</p>
+        </div>
+    </div>
+</span>
+<hr>
+<span class="price">
+    <h1 class="text-center font-light text-4xl mt-5">Pricing</h1>
+    <div class="table text-center justify-evenly ">
+        <table class="justify-evenly ml-[7rem] mt-[3rem] border-collapse border-b-black">
+            <tr class=" border-b-black">
+                <th class="pl-[78px]">Room</th>
+                <th class="pl-[16rem]">Price</th>
+                 <th  class="pl-[12rem]">Facilities</th>
+            </tr>
+            <tr class=" border-b-black">
+                <td>Single bed room </td>
+                <td class="pl-[16rem]">₹650/day</td>
+                <td class="pl-[12rem]">general + park area access</td>
+            </tr>
+            <tr>
+                <td>Normal room</td>
+                <td class="pl-[16rem]">₹1200/day</td>
+                <td class="pl-[12rem]">general + park area access</td>
+            </tr>
+            <tr>
+                <td>Queen size room</td>
+                <td class="pl-[16rem]">₹3000/day</td>
+                <td class="pl-[12rem]">General + park + pool area access</td>
+            </tr>
+            <tr>
+                <td>King size room</td>
+                <td class="pl-[16rem]">₹4500/day</td>
+                <td class="pl-[12rem]">General + park + pool + Gym area access</td>
+            </tr>
+            <tr>
+                <td>Couples room</td>
+                <td class="pl-[16rem]">₹4000/day</td>
+                <td class="pl-[12rem]">General + park + pool area access</td>
+            </tr>
+        </table>
+    </div>
+</span>
+<span class="view mt-5">
+    <img src="download.jfif" alt="" class="w-full h-60 mt-6 border-green-600">
+</span>
+<span class="booking mt-6 mb-6" >
+    <div class="form outline justify-center text-center bg-yellow-50 space-y-5  mt-5 mb-6 px-8 py-7">
+    <form action="" class="mt-8 justify-center text-center space-y-4 space-x-4">
+            <label for="check-in" class="text-xl ">Check in Date : </label>
+            <input type="date" class="outline rounded-md">
+            <label for="check-out" class="text-xl ">Check out Date : </label>
+            <input type="date" class="outline rounded-md">
+            <br>
+        <label for="room" class="text-xl ">No. of rooms needed : </label>
+            <input type="number" name="" id="" class="outline rounded">
+   
+    <label for="room" class="text-xl">Room category : </label>
+    <select name="category" id="" class="outline">
+        <option value="none">select a room category </option>
+        <option value="normal-room">Normal Room</option>
+        <option value="Single-bed">Single bed Room</option>
+        <option value="Queen-size">Queen size Room</option>
+        <option value="King-size">King Size Room </option>
+        <option value="couple-room ">Couple Room</option>
+    </select><br>
+    <label for="Mobile" class="text-xl ">Phone no. : </label>
+    <input type="number" placeholder="Enter your phone number" class="border-2 border-black rounded-lg w-80 pl-2">
+    <br>
+    <label for="email" class="text-xl">Email id : </label>
+    <input type="email" name="" id="" class="outline rounded w-80 pl-2" placeholder="Enter email id ">
+    <br>
+  <button class="outline-blue-600 bg-blue-600 text-white font-semibold px-24 rounded-lg ">Check Avaliblity</button>
+</form>
+</div>
+</span>
+<hr>
+<div class="discription mt-8">
+    <h1 class="text-center text-2xl">A Warm WelCome to you!</h1>
+    <p class="mt-2 text-center">Our hotel has been here for a long time. Our staff is here to help you in every thing you need .</p>
+</div>
+<hr>
+<div class="copyright">
+    All rights are reserved by Hotel Mid-Town
+    <br>
+    <p class="text-end text-gray-500">copyright &copy; reserved </p>
+</div>
+</body>
+</html>
